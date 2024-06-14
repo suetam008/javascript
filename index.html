@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="meu.estilo.css">
+    <title>Serviço</title>
+</head>
+<body>
+    <div id="header">
+    <h1>Serviço de interpretação em Libras</h1>
+    <h3>Preencha o formulario abaixo para calcular o valor o nosso serviço</h3>
+    </div>
+    <br>
+    <div class="formulario">
+    <form autocomplete="off">
+        <label for="inomeevento">Nome do Evento: </label>
+        <input type="text" name="nomeevento" id="inomeevento">
+        <br><br>
+        <label for="itipoevento">Tipo de Evento: </label>
+        <select name="itipoevento" id="itipoevento">
+            <option value="juridico">Jurídico</option>
+            <option value="educaçao">Educação</option>
+            <option value="artistico/cultural">Artístico/Cultural</option>
+            <option value="videoconferencia">Vídeo Conferência</option>
+        </select>
+        <br><br>
+        <label for="tempo">Tempo do evento: </label>
+        <input type="time" name="tempo" id="itime">
+        <br><br>
+        <label for="igravaçao">Ficará gravado?: </label>
+        <select name="gravaçao" id="igravaçao">
+            <option value="sim">Sim</option>
+            <option value="nao">Não</option>
+        </select>
+        <br><br>
+        <label for="iendereço">Endereço do evento</label>
+        <input type="text" name="endereço" id="iendereço">
+        <br><br>
+        <input type="submit" value="Calcular">
+    </form>
+    </div>
+</body>
+</html>
